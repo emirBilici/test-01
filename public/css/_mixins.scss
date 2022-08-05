@@ -1,0 +1,25 @@
+@mixin SyledScrollbar($bg: #fff) {
+  &::-webkit-scrollbar {
+    background: $bg;
+  }
+  &::-webkit-scrollbar-thumb {
+    width: 16px;
+    background: #5c5c5c;
+    border: 5px solid $bg;
+    border-radius: 20px;
+  }
+  &::-webkit-scrollbar-button {
+    width: 0;
+    height: 0;
+    display: none;
+  }
+  &::-webkit-scrollbar-corner {
+    background: transparent;
+  }
+}
+
+@mixin RemoveElement() {
+  opacity: 0;
+  visibility: hidden;
+  user-select: none;
+}

@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "@digitalocean/do-markdownit": "^1.2.0",
+    "markdown-it": "^13.0.1"
+  },
+  "name": "htdocs",
+  "description": "Sipariş no: 1418146\r Alıcı: **@anilgu**",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "me",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^5.74.0"
+  }
+}
